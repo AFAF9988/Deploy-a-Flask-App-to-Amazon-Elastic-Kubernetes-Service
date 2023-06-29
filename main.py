@@ -62,7 +62,7 @@ def _get_jwt(user_data):
 
 @APP.route('/', methods=['POST', 'GET'])
 def health():
-    return jsonify("Healthy")
+    return jsonify("ENOCH FLASK API")
 
 @APP.route('/auth', methods=['POST'])
 def auth():
